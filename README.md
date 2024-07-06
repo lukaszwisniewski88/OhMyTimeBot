@@ -1,15 +1,20 @@
-# ohmydays
+# Workspace wokół bota dla discord.
+
 
 To install dependencies:
 
 ```bash
 bun install
 ```
-
-To run:
-
+to run a discord bot:
 ```bash
-bun run index.ts
+bun --env-file=./apps/discord_bot/.env ./apps/discord_bot/src/index.ts
 ```
 
-This project was created using `bun init` in bun v1.1.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+## What ENVIRONMENT variables do you need?
+
+
+- BOT_TOKEN="<YOUR TOKEN FOR THE BOT APP CREATED>"
+
+
+

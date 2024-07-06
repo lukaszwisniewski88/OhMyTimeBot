@@ -1,15 +1,12 @@
-# discord_bot
+# DISCORD BOT
 
-To install dependencies:
+## for a ohmytime project.
 
-```bash
-bun install
-```
+goal is to help teams know each one time capacity, and help in coordinate meetings between workstyles and timezones.
 
 To run:
 
 ```bash
-bun run index.ts
+bun run src/index.ts
 ```
 
-This project was created using `bun init` in bun v1.1.18. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
