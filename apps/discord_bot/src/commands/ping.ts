@@ -29,8 +29,6 @@ export class PingCommand extends Command {
   }
   public override async messageRun(message: Message) {
     const msg = await message.channel.send('Ping?');
-    const guild = message.guild?.name
-    const userNamr = message.author.username
     const content = `Pong from BUN! Bot Latency ${Math.round(this.container.client.ws.ping)}ms. API Latency ${msg.createdTimestamp - message.createdTimestamp
       }ms.`;
 
